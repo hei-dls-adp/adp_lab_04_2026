@@ -1,0 +1,424 @@
+[
+    {
+        "id": "3599859cb20d9221",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "74ee7ebe7a307be7",
+        "type": "group",
+        "z": "3599859cb20d9221",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "111d94fc747e2aa4",
+            "8e5a86bd96640d89",
+            "44a7a444fdb9f2c4",
+            "3a7c3988aafda6fe",
+            "60f4cdcacf653e91",
+            "482aea68a05ef759",
+            "433dc15f5cf75b9a",
+            "8e699c3ab9df3fb5",
+            "c9f23f9a20850643",
+            "275f966991c0de9f",
+            "b46c12b981570fcd",
+            "77854dc8482119a1",
+            "020fedc427c1024f",
+            "12413b257c641054"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 872,
+        "h": 722
+    },
+    {
+        "id": "111d94fc747e2aa4",
+        "type": "inject",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "8e5a86bd96640d89"
+            ]
+        ]
+    },
+    {
+        "id": "8e5a86bd96640d89",
+        "type": "ui-button",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "group": "22eb470ee4761a1e",
+        "name": "",
+        "label": "Time Stamp",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "3a7c3988aafda6fe"
+            ]
+        ]
+    },
+    {
+        "id": "44a7a444fdb9f2c4",
+        "type": "debug",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "json string",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "3a7c3988aafda6fe",
+        "type": "function",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "Log payload",
+        "func": "var myMessage = {\"timestamp\": msg.payload};\n\nmsg.payload = myMessage;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 260,
+        "wires": [
+            [
+                "60f4cdcacf653e91",
+                "433dc15f5cf75b9a",
+                "482aea68a05ef759",
+                "b46c12b981570fcd"
+            ]
+        ]
+    },
+    {
+        "id": "60f4cdcacf653e91",
+        "type": "json",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "js to json",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 460,
+        "y": 420,
+        "wires": [
+            [
+                "44a7a444fdb9f2c4",
+                "c9f23f9a20850643"
+            ]
+        ]
+    },
+    {
+        "id": "482aea68a05ef759",
+        "type": "csv",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "js to csv",
+        "spec": "rfc",
+        "sep": ";",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 460,
+        "y": 540,
+        "wires": [
+            [
+                "8e699c3ab9df3fb5",
+                "275f966991c0de9f"
+            ]
+        ]
+    },
+    {
+        "id": "433dc15f5cf75b9a",
+        "type": "debug",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "json object",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8e699c3ab9df3fb5",
+        "type": "debug",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "csv string",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "c9f23f9a20850643",
+        "type": "file",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "",
+        "filename": "/Documents/Sandbox/LogButton.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 730,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "275f966991c0de9f",
+        "type": "file",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "",
+        "filename": "/Documents/Sandbox/LogButton.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 730,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b46c12b981570fcd",
+        "type": "xml",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "js to xml",
+        "property": "payload",
+        "attr": "xmltag",
+        "chr": "timestamp",
+        "x": 480,
+        "y": 660,
+        "wires": [
+            [
+                "77854dc8482119a1",
+                "020fedc427c1024f"
+            ]
+        ]
+    },
+    {
+        "id": "77854dc8482119a1",
+        "type": "debug",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "xml string",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "020fedc427c1024f",
+        "type": "file",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "",
+        "filename": "/Documents/Sandbox/LogButton.xml",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12413b257c641054",
+        "type": "comment",
+        "z": "3599859cb20d9221",
+        "g": "74ee7ebe7a307be7",
+        "name": "Example to write csv, json and xml files",
+        "info": "# Important note\nThe XML file must be overwritten",
+        "x": 470,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "22eb470ee4761a1e",
+        "type": "ui-group",
+        "name": "LogFile",
+        "page": "eb9ca9b78598a702",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "eb9ca9b78598a702",
+        "type": "ui-page",
+        "name": "Log File",
+        "ui": "926d3079c9560d19",
+        "path": "/logfile",
+        "icon": "backup-restore",
+        "layout": "notebook",
+        "theme": "8966a7b403a8fb88",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "926d3079c9560d19",
+        "type": "ui-base",
+        "name": "Home",
+        "path": "/dashboard",
+        "appIcon": "factory",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "navigationStyle": "fixed",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": "1",
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "8966a7b403a8fb88",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#8080ff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    }
+]
