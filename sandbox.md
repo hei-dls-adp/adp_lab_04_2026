@@ -1,4 +1,9 @@
 
+## Pour le dessin de la trajectoire
+TimeStamp   Velocity 0.01 m/s
+Pick or place
+
+End of motion is: 
 
 :warning:
 
