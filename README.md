@@ -400,4 +400,7 @@ C:\Users\yourfirstname.yourname\Documents\Adp\Lab_04_2026\CmdParameters.xml
 
 **Please, check your system be editing the xml file !!!**
 
+<b style='color:red;'>Maybe with the help of that ?</b>
+C:\Users\cedric.lenoir\Documents\Git_Hub\adp_lab_04_2026\node_red_base\To Insert in your flows
+
 <!-- End of document -->
