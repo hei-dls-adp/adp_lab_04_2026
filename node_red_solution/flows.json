@@ -1,5 +1,21 @@
 [
     {
+        "id": "fda828b9cf218447",
+        "type": "tab",
+        "label": "Axis write",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9f43651d27666c07",
+        "type": "tab",
+        "label": "sandbox",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "155f3371898c6d1b",
         "type": "tab",
         "label": "3D Robot",
@@ -51,22 +67,6 @@
         "id": "2c31763846faff4a",
         "type": "tab",
         "label": "Learning Alarms",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "9f43651d27666c07",
-        "type": "tab",
-        "label": "sandbox",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "fda828b9cf218447",
-        "type": "tab",
-        "label": "Axis write",
         "disabled": false,
         "info": "",
         "env": []
@@ -1199,106 +1199,9 @@
             "94b66729fad6e339"
         ],
         "x": 34,
-        "y": 199,
+        "y": 219,
         "w": 772,
         "h": 262
-    },
-    {
-        "id": "868084a294db2515",
-        "type": "group",
-        "z": "155f3371898c6d1b",
-        "g": "0a1ab2cc87df6bab",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "16aa67ea9a0e5fd5",
-            "06dfaec43e810dd6",
-            "3a2621698a4e60e5"
-        ],
-        "x": 94,
-        "y": 439,
-        "w": 952,
-        "h": 82
-    },
-    {
-        "id": "4165cb003dca4abc",
-        "type": "group",
-        "z": "155f3371898c6d1b",
-        "g": "0a1ab2cc87df6bab",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "58c31ab3611761b3",
-            "1f099919ac3870f9",
-            "0fb5ddf1fbffa252"
-        ],
-        "x": 94,
-        "y": 639,
-        "w": 952,
-        "h": 82
-    },
-    {
-        "id": "8eee29f6b87ecfa1",
-        "type": "group",
-        "z": "155f3371898c6d1b",
-        "g": "0a1ab2cc87df6bab",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "916c94085f232872",
-            "828534c9bc8a6972",
-            "b848fd3d30caa4be"
-        ],
-        "x": 94,
-        "y": 539,
-        "w": 952,
-        "h": 82
-    },
-    {
-        "id": "def4eaf6b5435702",
-        "type": "group",
-        "z": "fda828b9cf218447",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "873f10be8e4d480e",
-            "e7660260e8c5617e",
-            "bd1d65a0b2324e9f",
-            "33206772114991c3",
-            "962b44c80e86188f"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 692,
-        "h": 202
     },
     {
         "id": "d36a14ca81220d57",
@@ -1488,6 +1391,103 @@
         "y": 1239,
         "w": 872,
         "h": 362
+    },
+    {
+        "id": "868084a294db2515",
+        "type": "group",
+        "z": "155f3371898c6d1b",
+        "g": "0a1ab2cc87df6bab",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "16aa67ea9a0e5fd5",
+            "06dfaec43e810dd6",
+            "3a2621698a4e60e5"
+        ],
+        "x": 94,
+        "y": 439,
+        "w": 952,
+        "h": 82
+    },
+    {
+        "id": "4165cb003dca4abc",
+        "type": "group",
+        "z": "155f3371898c6d1b",
+        "g": "0a1ab2cc87df6bab",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "58c31ab3611761b3",
+            "1f099919ac3870f9",
+            "0fb5ddf1fbffa252"
+        ],
+        "x": 94,
+        "y": 639,
+        "w": 952,
+        "h": 82
+    },
+    {
+        "id": "8eee29f6b87ecfa1",
+        "type": "group",
+        "z": "155f3371898c6d1b",
+        "g": "0a1ab2cc87df6bab",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "916c94085f232872",
+            "828534c9bc8a6972",
+            "b848fd3d30caa4be"
+        ],
+        "x": 94,
+        "y": 539,
+        "w": 952,
+        "h": 82
+    },
+    {
+        "id": "def4eaf6b5435702",
+        "type": "group",
+        "z": "fda828b9cf218447",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "873f10be8e4d480e",
+            "e7660260e8c5617e",
+            "bd1d65a0b2324e9f",
+            "33206772114991c3",
+            "962b44c80e86188f"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 692,
+        "h": 202
     },
     {
         "id": "8966a7b403a8fb88",
@@ -2100,6 +2100,2217 @@
         "valueType": "msg",
         "x": 650,
         "y": 160,
+        "wires": []
+    },
+    {
+        "id": "16c8d3a6b931c9b9",
+        "type": "ui-radio-group",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "group": "86ca703e3e55c636",
+        "name": "",
+        "label": "Select Option:",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "columns": 1,
+        "passthru": true,
+        "options": [
+            {
+                "label": "Motion Started",
+                "value": true,
+                "type": "bool"
+            },
+            {
+                "label": "Motion Done",
+                "value": false,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 440,
+        "y": 400,
+        "wires": [
+            [
+                "ab4e8efca07b3710",
+                "5012b69f0c9feef9"
+            ]
+        ]
+    },
+    {
+        "id": "67ce856367310f5e",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "Start Motion",
+        "links": [
+            "6f8c01b65c1d3f51"
+        ],
+        "x": 225,
+        "y": 360,
+        "wires": [
+            [
+                "16c8d3a6b931c9b9"
+            ]
+        ]
+    },
+    {
+        "id": "881cc231027dcc49",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "Sart Motion",
+        "links": [
+            "2ac02d87fc808341"
+        ],
+        "x": 225,
+        "y": 400,
+        "wires": [
+            [
+                "16c8d3a6b931c9b9"
+            ]
+        ]
+    },
+    {
+        "id": "dabfe2752ee4d254",
+        "type": "ui-button",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "group": "86ca703e3e55c636",
+        "name": "",
+        "label": "Force motion done",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 150,
+        "y": 320,
+        "wires": [
+            [
+                "16c8d3a6b931c9b9",
+                "33ea3f6467581c42"
+            ]
+        ]
+    },
+    {
+        "id": "59564dc585013b31",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "not done",
+        "func": "msg.payload = !msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "16c8d3a6b931c9b9"
+            ]
+        ]
+    },
+    {
+        "id": "c61792b18a32a294",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "Motion Started or done",
+        "info": "",
+        "x": 600,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "06854f7db0db5400",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "Start Motion",
+        "links": [
+            "6f8c01b65c1d3f51"
+        ],
+        "x": 185,
+        "y": 620,
+        "wires": [
+            [
+                "10d319e27f75b929"
+            ]
+        ]
+    },
+    {
+        "id": "85fed93b23877678",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "Sart Motion",
+        "links": [
+            "2ac02d87fc808341"
+        ],
+        "x": 185,
+        "y": 660,
+        "wires": [
+            [
+                "10d319e27f75b929"
+            ]
+        ]
+    },
+    {
+        "id": "5d4ec4cbca213de9",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "Motion Started or done",
+        "info": "",
+        "x": 560,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "33ea3f6467581c42",
+        "type": "link out",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "Reset motion done",
+        "mode": "link",
+        "links": [
+            "312a993a09d48e2e"
+        ],
+        "x": 345,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "312a993a09d48e2e",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "link in 6",
+        "links": [
+            "33ea3f6467581c42"
+        ],
+        "x": 185,
+        "y": 580,
+        "wires": [
+            [
+                "10d319e27f75b929"
+            ]
+        ]
+    },
+    {
+        "id": "10d319e27f75b929",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "0479f385e4b2fb78",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "Build message to write",
+        "func": "// get a timestamp\nconst event = new Date();\n// convert to local time\nmsg.payload = {time : event.toLocaleTimeString(\"en-US\", { timeZone: \"Europe/Berlin\" }),\n               action : \"Reset Button\"};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 740,
+        "wires": [
+            [
+                "3d9ced6faa4383f0",
+                "b5c53ebe31abaae2"
+            ]
+        ]
+    },
+    {
+        "id": "37c83f24a82e16b9",
+        "type": "inject",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            [
+                "0479f385e4b2fb78"
+            ]
+        ]
+    },
+    {
+        "id": "3d9ced6faa4383f0",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "4e55b65911f30db1",
+        "type": "ui-button",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "group": "94299253fcb53e23",
+        "name": "",
+        "label": "button",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 110,
+        "y": 800,
+        "wires": [
+            [
+                "0479f385e4b2fb78"
+            ]
+        ]
+    },
+    {
+        "id": "b5c53ebe31abaae2",
+        "type": "json",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 820,
+        "wires": [
+            [
+                "94107265ee29661d"
+            ]
+        ]
+    },
+    {
+        "id": "94107265ee29661d",
+        "type": "file",
+        "z": "fda828b9cf218447",
+        "g": "e5a5deed42ad487a",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\LogEvent.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 560,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6434ed1e6d802c42",
+        "type": "ctrlx-datalayer-request",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "device": "e45e312c80fc001e",
+        "method": "READ",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 410,
+        "y": 1700,
+        "wires": [
+            [
+                "41429915f93bb0fd",
+                "4d2b55b13808cc07"
+            ]
+        ]
+    },
+    {
+        "id": "352a2b9a5bc85a4d",
+        "type": "inject",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 1700,
+        "wires": [
+            [
+                "6434ed1e6d802c42"
+            ]
+        ]
+    },
+    {
+        "id": "41429915f93bb0fd",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "faa73f961089754a",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "Read write json",
+        "info": "",
+        "x": 140,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "8cc15fe26f0b6ab0",
+        "type": "file",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 580,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c0b0795f9036fd62",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "debug 36",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "6ce990b0f9585626",
+        "type": "inject",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 1940,
+        "wires": [
+            [
+                "9c778cf683b7e7e2"
+            ]
+        ]
+    },
+    {
+        "id": "9c778cf683b7e7e2",
+        "type": "file in",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 520,
+        "y": 1940,
+        "wires": [
+            [
+                "0209123bce113630"
+            ]
+        ]
+    },
+    {
+        "id": "78dca3aad0c52ac0",
+        "type": "ctrlx-datalayer-request",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 620,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d2b55b13808cc07",
+        "type": "json",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 430,
+        "y": 1780,
+        "wires": [
+            [
+                "c0b0795f9036fd62",
+                "8cc15fe26f0b6ab0"
+            ]
+        ]
+    },
+    {
+        "id": "0209123bce113630",
+        "type": "json",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 290,
+        "y": 2000,
+        "wires": [
+            [
+                "2960eec8feb91eed",
+                "78dca3aad0c52ac0"
+            ]
+        ]
+    },
+    {
+        "id": "2960eec8feb91eed",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "02ba4ac2bf5bc2be",
+        "name": "debug 38",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "d72221f60c2de6cb",
+        "type": "trigger",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "date",
+        "op2type": "str",
+        "duration": "-200",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "reset",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 400,
+        "y": 1080,
+        "wires": [
+            [
+                "d37fc4d6a47ba0ef",
+                "7f8c222834a15617"
+            ]
+        ]
+    },
+    {
+        "id": "ecaa35f7c7873f67",
+        "type": "inject",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 1080,
+        "wires": [
+            [
+                "d72221f60c2de6cb"
+            ]
+        ]
+    },
+    {
+        "id": "d37fc4d6a47ba0ef",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "b7206323cb5b7095",
+        "type": "inject",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "reset",
+        "payloadType": "str",
+        "x": 170,
+        "y": 1120,
+        "wires": [
+            [
+                "d72221f60c2de6cb"
+            ]
+        ]
+    },
+    {
+        "id": "713f9783df8256a1",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "Build a trigger with xx ms repetition",
+        "info": "",
+        "x": 220,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "74d8d209d1f15750",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Axis_X",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_X\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1280,
+        "wires": [
+            [
+                "58188e5b1a18844b"
+            ]
+        ]
+    },
+    {
+        "id": "e00d56c66f599124",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Axis_Y",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Y\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1320,
+        "wires": [
+            [
+                "58188e5b1a18844b"
+            ]
+        ]
+    },
+    {
+        "id": "82d2a1834149859e",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Axis_Z",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Z\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1360,
+        "wires": [
+            [
+                "58188e5b1a18844b"
+            ]
+        ]
+    },
+    {
+        "id": "0342af36c0b6af22",
+        "type": "ctrlx-datalayer-request",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "device": "e45e312c80fc001e",
+        "method": "READ",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_X",
+        "payloadFormat": "value",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 310,
+        "y": 1280,
+        "wires": [
+            [
+                "74d8d209d1f15750"
+            ]
+        ]
+    },
+    {
+        "id": "1bdef868ea24fb80",
+        "type": "ctrlx-datalayer-request",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "device": "e45e312c80fc001e",
+        "method": "READ",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Y",
+        "payloadFormat": "value",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 310,
+        "y": 1340,
+        "wires": [
+            [
+                "e00d56c66f599124"
+            ]
+        ]
+    },
+    {
+        "id": "f23d2cd34e3e856d",
+        "type": "ctrlx-datalayer-request",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "device": "e45e312c80fc001e",
+        "method": "READ",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Z",
+        "payloadFormat": "value",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 310,
+        "y": 1400,
+        "wires": [
+            [
+                "82d2a1834149859e"
+            ]
+        ]
+    },
+    {
+        "id": "7f8c222834a15617",
+        "type": "link out",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "Trigger position",
+        "mode": "link",
+        "links": [
+            "b07fe33e8aa9edfa"
+        ],
+        "x": 645,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "b07fe33e8aa9edfa",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Trigger position",
+        "links": [
+            "7f8c222834a15617"
+        ],
+        "x": 75,
+        "y": 1320,
+        "wires": [
+            [
+                "0342af36c0b6af22",
+                "1bdef868ea24fb80",
+                "f23d2cd34e3e856d"
+            ]
+        ]
+    },
+    {
+        "id": "b4cb8010134a7b3c",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Positions",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "58188e5b1a18844b",
+        "type": "join",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 830,
+        "y": 1320,
+        "wires": [
+            [
+                "91092292934f4656"
+            ]
+        ]
+    },
+    {
+        "id": "91092292934f4656",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Build message to write",
+        "func": "// get a timestamp\nconst event = new Date();\n// convert to local time\nmsg.payload = {time : event.toLocaleTimeString(\"en-US\", { timeZone: \"Europe/Berlin\" }),\n               Axis_x : msg.payload.Axis_X,\n               Axis_y : msg.payload.Axis_Y,\n               Axis_z : msg.payload.Axis_Z};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1460,
+        "wires": [
+            [
+                "340a8a7d8e2068b1"
+            ]
+        ]
+    },
+    {
+        "id": "340a8a7d8e2068b1",
+        "type": "csv",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 210,
+        "y": 1520,
+        "wires": [
+            [
+                "325cc00d1d0e771e",
+                "b4cb8010134a7b3c"
+            ]
+        ]
+    },
+    {
+        "id": "325cc00d1d0e771e",
+        "type": "file",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\RobotPosition.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 550,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ba39bf9c2c4e7de",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "21f6b3d81952501e",
+        "name": "Write Robot positions",
+        "info": "",
+        "x": 300,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "ab4e8efca07b3710",
+        "type": "link out",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "Motion done not done",
+        "mode": "link",
+        "links": [
+            "c9968cee6065d543"
+        ],
+        "x": 615,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c9968cee6065d543",
+        "type": "link in",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "Motion Done not done",
+        "links": [
+            "ab4e8efca07b3710"
+        ],
+        "x": 185,
+        "y": 1000,
+        "wires": [
+            [
+                "483095fab07397b2",
+                "98db3381bf380aae"
+            ]
+        ]
+    },
+    {
+        "id": "483095fab07397b2",
+        "type": "function",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "Set Reset",
+        "func": "if (msg.payload) {\n    msg.payload = true;\n}\nelse{\n    msg.payload = \"reset\"; \n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1040,
+        "wires": [
+            [
+                "d72221f60c2de6cb",
+                "98db3381bf380aae"
+            ]
+        ]
+    },
+    {
+        "id": "98db3381bf380aae",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "90c57959f492d204",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "5012b69f0c9feef9",
+        "type": "debug",
+        "z": "fda828b9cf218447",
+        "g": "d36a14ca81220d57",
+        "name": "debug 40",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "873f10be8e4d480e",
+        "type": "ui-text",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "group": "84bdc0c5cf8a2ae7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motion done msg: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e7660260e8c5617e",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionDone",
+        "name": "",
+        "inputs": 0,
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "873f10be8e4d480e",
+                "59564dc585013b31"
+            ]
+        ]
+    },
+    {
+        "id": "bd1d65a0b2324e9f",
+        "type": "ui-text",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "group": "84bdc0c5cf8a2ae7",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motion done Status: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 600,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "33206772114991c3",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionStatusString",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "bd1d65a0b2324e9f"
+            ]
+        ]
+    },
+    {
+        "id": "962b44c80e86188f",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "name": "Motion Status from PLC",
+        "info": "",
+        "x": 160,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "af267aa938288f3c",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f8b2a63955690ca3",
+        "type": "subflow:2acbf28b7034c4f3",
+        "z": "9f43651d27666c07",
+        "name": "Group One",
+        "env": [
+            {
+                "name": "setGroup",
+                "value": "84bdc0c5cf8a2ae7",
+                "type": "conf-type"
+            },
+            {
+                "name": "setColor",
+                "value": "red",
+                "type": "str"
+            },
+            {
+                "name": "setFontSize",
+                "value": "24",
+                "type": "str"
+            },
+            {
+                "name": "setMultiFactor",
+                "value": "0.001",
+                "type": "str"
+            },
+            {
+                "name": "setLabel",
+                "value": "Sound",
+                "type": "str"
+            },
+            {
+                "name": "setIcon",
+                "value": "flower",
+                "type": "str"
+            },
+            {
+                "name": "setUnit",
+                "value": "mm",
+                "type": "str"
+            },
+            {
+                "key": "DB2_SF_ORDER",
+                "value": 3,
+                "type": "str"
+            }
+        ],
+        "x": 330,
+        "y": 60,
+        "wires": [
+            [
+                "af267aa938288f3c"
+            ]
+        ]
+    },
+    {
+        "id": "de362d879a0113ba",
+        "type": "subflow:2acbf28b7034c4f3",
+        "z": "9f43651d27666c07",
+        "name": "Group Two",
+        "env": [
+            {
+                "name": "setGroup",
+                "value": "94299253fcb53e23",
+                "type": "conf-type"
+            },
+            {
+                "name": "setColor",
+                "value": "blue",
+                "type": "str"
+            },
+            {
+                "name": "setFontSize",
+                "value": "12",
+                "type": "str"
+            },
+            {
+                "name": "setLabel",
+                "value": "Laser",
+                "type": "str"
+            },
+            {
+                "name": "setIcon",
+                "value": "flower",
+                "type": "str"
+            },
+            {
+                "key": "DB2_SF_ORDER",
+                "value": 2,
+                "type": "str"
+            }
+        ],
+        "x": 330,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6b6776e91a2e6e7",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaU300_D50_Sound/Value",
+        "name": "Sound",
+        "inputs": 0,
+        "x": 90,
+        "y": 60,
+        "wires": [
+            [
+                "f8b2a63955690ca3"
+            ]
+        ]
+    },
+    {
+        "id": "b382f1cea0cf118c",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaO300_DL_Optic/Value",
+        "name": "Laser",
+        "inputs": 0,
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "de362d879a0113ba"
+            ]
+        ]
+    },
+    {
+        "id": "e5a767bdcca1e6d9",
+        "type": "subflow:2acbf28b7034c4f3",
+        "z": "9f43651d27666c07",
+        "g": "8c1edaf6ffe838c7",
+        "name": "",
+        "env": [
+            {
+                "name": "setGroup",
+                "value": "84bdc0c5cf8a2ae7",
+                "type": "conf-type"
+            },
+            {
+                "name": "setColor",
+                "value": "green",
+                "type": "str"
+            },
+            {
+                "name": "setFontSize",
+                "value": "16",
+                "type": "str"
+            },
+            {
+                "name": "setMultiFactor",
+                "value": "0.01",
+                "type": "str"
+            },
+            {
+                "name": "setLabel",
+                "value": "Raw value",
+                "type": "str"
+            },
+            {
+                "key": "DB2_SF_ORDER",
+                "value": 2,
+                "type": "str"
+            }
+        ],
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "94b66729fad6e339"
+            ]
+        ]
+    },
+    {
+        "id": "5ac6b0ddfdd92f95",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "g": "8c1edaf6ffe838c7",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaU300_D50_Sound/Value",
+        "name": "Sound",
+        "inputs": 0,
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "e5a767bdcca1e6d9"
+            ]
+        ]
+    },
+    {
+        "id": "c69ffd3c161ab844",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "g": "8c1edaf6ffe838c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "563.25",
+        "payloadType": "num",
+        "x": 130,
+        "y": 360,
+        "wires": [
+            [
+                "e5a767bdcca1e6d9"
+            ]
+        ]
+    },
+    {
+        "id": "50d4dc750647c24c",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "g": "8c1edaf6ffe838c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "456814",
+        "payloadType": "num",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "e5a767bdcca1e6d9"
+            ]
+        ]
+    },
+    {
+        "id": "94b66729fad6e339",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "g": "8c1edaf6ffe838c7",
+        "name": "debug my subflow",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8ccddb9a.a55f38",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "name": "temperature",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "temperature",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 210,
+        "y": 560,
+        "wires": [
+            [
+                "47b769c5.cb0e28"
+            ]
+        ]
+    },
+    {
+        "id": "47b769c5.cb0e28",
+        "type": "join",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 410,
+        "y": 600,
+        "wires": [
+            [
+                "f9afb265.b11b7"
+            ]
+        ]
+    },
+    {
+        "id": "f9afb265.b11b7",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 570,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2d269127.4f04ce",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "name": "humidity",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "humidity",
+        "payload": "",
+        "payloadType": "num",
+        "x": 200,
+        "y": 600,
+        "wires": [
+            [
+                "47b769c5.cb0e28"
+            ]
+        ]
+    },
+    {
+        "id": "d6fbe805.0e4628",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "name": "pressure",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "pressure",
+        "payload": "999",
+        "payloadType": "num",
+        "x": 200,
+        "y": 640,
+        "wires": [
+            [
+                "47b769c5.cb0e28"
+            ]
+        ]
+    },
+    {
+        "id": "e583a49c334b142d",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_X",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 720,
+        "wires": [
+            [
+                "5bdf6fa4f7818be8"
+            ]
+        ]
+    },
+    {
+        "id": "e5107ff91f86c5cc",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "Join Positions",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f8fbbcd259812b17",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Y",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 780,
+        "wires": [
+            [
+                "8dd5ef0d20a52abd"
+            ]
+        ]
+    },
+    {
+        "id": "078e185810115ba5",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "9f43651d27666c07",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Z",
+        "name": "",
+        "inputs": 0,
+        "x": 230,
+        "y": 860,
+        "wires": [
+            [
+                "eca208d63147ad1e"
+            ]
+        ]
+    },
+    {
+        "id": "5bdf6fa4f7818be8",
+        "type": "function",
+        "z": "9f43651d27666c07",
+        "name": "Axis_X",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_X\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 740,
+        "wires": [
+            [
+                "a8e6fb0697d704c1",
+                "f39e04a220565b44"
+            ]
+        ]
+    },
+    {
+        "id": "8dd5ef0d20a52abd",
+        "type": "function",
+        "z": "9f43651d27666c07",
+        "name": "Axis_Y",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Y\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 780,
+        "wires": [
+            [
+                "a8e6fb0697d704c1",
+                "f39e04a220565b44"
+            ]
+        ]
+    },
+    {
+        "id": "eca208d63147ad1e",
+        "type": "function",
+        "z": "9f43651d27666c07",
+        "name": "Axis_Z",
+        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Z\"\n\nreturn newMsg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 820,
+        "wires": [
+            [
+                "a8e6fb0697d704c1",
+                "f39e04a220565b44"
+            ]
+        ]
+    },
+    {
+        "id": "a8e6fb0697d704c1",
+        "type": "join",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 740,
+        "wires": [
+            [
+                "e5107ff91f86c5cc"
+            ]
+        ]
+    },
+    {
+        "id": "f39e04a220565b44",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "Positions",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "9ccdf268.c96ff",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 980,
+        "wires": [
+            [
+                "38950a5.28d15f6",
+                "2c532f67.0330e"
+            ]
+        ]
+    },
+    {
+        "id": "38950a5.28d15f6",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 690,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "2c532f67.0330e",
+        "type": "trigger",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "op1": "reset",
+        "op2": "true",
+        "op1type": "str",
+        "op2type": "bool",
+        "duration": "2",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 300,
+        "y": 1020,
+        "wires": [
+            [
+                "e4e42b96.97a338",
+                "c1831d85a58311c7"
+            ]
+        ]
+    },
+    {
+        "id": "e4e42b96.97a338",
+        "type": "trigger",
+        "z": "9f43651d27666c07",
+        "name": "",
+        "op1": "0",
+        "op2": "0",
+        "op1type": "num",
+        "op2type": "str",
+        "duration": "-2",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "reset",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 500,
+        "y": 1020,
+        "wires": [
+            [
+                "38950a5.28d15f6"
+            ]
+        ]
+    },
+    {
+        "id": "c1831d85a58311c7",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "name": "First Trigger",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "11c0ab4f336f73cf",
+        "type": "ctrlx-datalayer-request",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "device": "e45e312c80fc001e",
+        "method": "READ",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 430,
+        "y": 1320,
+        "wires": [
+            [
+                "814850eafc62812a",
+                "6602aed96f84f0a6"
+            ]
+        ]
+    },
+    {
+        "id": "e6309feeae288cd6",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1320,
+        "wires": [
+            [
+                "11c0ab4f336f73cf"
+            ]
+        ]
+    },
+    {
+        "id": "814850eafc62812a",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "6602aed96f84f0a6",
+        "type": "change",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CmdParameters",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 1400,
+        "wires": [
+            [
+                "5d2bca160a282513"
+            ]
+        ]
+    },
+    {
+        "id": "5bde80b7d115159c",
+        "type": "comment",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "Read write",
+        "info": "",
+        "x": 140,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "1f7d1352bf7ce123",
+        "type": "file",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 600,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e769916d4329cce",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "e9c4f2ef22d66833",
+        "type": "inject",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 1560,
+        "wires": [
+            [
+                "5cae0d5776ece977"
+            ]
+        ]
+    },
+    {
+        "id": "5cae0d5776ece977",
+        "type": "file in",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 540,
+        "y": 1560,
+        "wires": [
+            [
+                "27d946db6aceaafd"
+            ]
+        ]
+    },
+    {
+        "id": "b0b78c2c6619a742",
+        "type": "ctrlx-datalayer-request",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "device": "e45e312c80fc001e",
+        "method": "WRITE",
+        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
+        "payloadFormat": "value_type",
+        "name": "",
+        "pendingWarnLevel": 50,
+        "pendingErrorLevel": 100,
+        "x": 620,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6252554ba57a5355",
+        "type": "change",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CmdParameters",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 1720,
+        "wires": [
+            [
+                "b0b78c2c6619a742",
+                "c9d4a23c377e8e0d"
+            ]
+        ]
+    },
+    {
+        "id": "c9d4a23c377e8e0d",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "5d2bca160a282513",
+        "type": "json",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 1400,
+        "wires": [
+            [
+                "1e769916d4329cce",
+                "1f7d1352bf7ce123"
+            ]
+        ]
+    },
+    {
+        "id": "27d946db6aceaafd",
+        "type": "json",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 310,
+        "y": 1620,
+        "wires": [
+            [
+                "6252554ba57a5355",
+                "96daf303ac61ec02"
+            ]
+        ]
+    },
+    {
+        "id": "96daf303ac61ec02",
+        "type": "debug",
+        "z": "9f43651d27666c07",
+        "g": "fa6037b1b4cd4036",
+        "name": "debug 34",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 1620,
         "wires": []
     },
     {
@@ -5632,7 +7843,6 @@
         "mode": "link",
         "links": [
             "67ce856367310f5e",
-            "760210a01248bd19",
             "06854f7db0db5400"
         ],
         "x": 365,
@@ -5648,7 +7858,6 @@
         "mode": "link",
         "links": [
             "881cc231027dcc49",
-            "b5a6c436dc637899",
             "85fed93b23877678"
         ],
         "x": 335,
@@ -11548,2216 +13757,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "af267aa938288f3c",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "debug 26",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 520,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "f8b2a63955690ca3",
-        "type": "subflow:2acbf28b7034c4f3",
-        "z": "9f43651d27666c07",
-        "name": "Group One",
-        "env": [
-            {
-                "name": "setGroup",
-                "value": "84bdc0c5cf8a2ae7",
-                "type": "conf-type"
-            },
-            {
-                "name": "setColor",
-                "value": "red",
-                "type": "str"
-            },
-            {
-                "name": "setFontSize",
-                "value": "24",
-                "type": "str"
-            },
-            {
-                "name": "setMultiFactor",
-                "value": "0.001",
-                "type": "str"
-            },
-            {
-                "name": "setLabel",
-                "value": "Sound",
-                "type": "str"
-            },
-            {
-                "name": "setIcon",
-                "value": "flower",
-                "type": "str"
-            },
-            {
-                "name": "setUnit",
-                "value": "mm",
-                "type": "str"
-            },
-            {
-                "key": "DB2_SF_ORDER",
-                "value": 3,
-                "type": "str"
-            }
-        ],
-        "x": 330,
-        "y": 60,
-        "wires": [
-            [
-                "af267aa938288f3c"
-            ]
-        ]
-    },
-    {
-        "id": "de362d879a0113ba",
-        "type": "subflow:2acbf28b7034c4f3",
-        "z": "9f43651d27666c07",
-        "name": "Group Two",
-        "env": [
-            {
-                "name": "setGroup",
-                "value": "94299253fcb53e23",
-                "type": "conf-type"
-            },
-            {
-                "name": "setColor",
-                "value": "blue",
-                "type": "str"
-            },
-            {
-                "name": "setFontSize",
-                "value": "12",
-                "type": "str"
-            },
-            {
-                "name": "setLabel",
-                "value": "Laser",
-                "type": "str"
-            },
-            {
-                "name": "setIcon",
-                "value": "flower",
-                "type": "str"
-            },
-            {
-                "key": "DB2_SF_ORDER",
-                "value": 2,
-                "type": "str"
-            }
-        ],
-        "x": 330,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d6b6776e91a2e6e7",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaU300_D50_Sound/Value",
-        "name": "Sound",
-        "inputs": 0,
-        "x": 90,
-        "y": 60,
-        "wires": [
-            [
-                "f8b2a63955690ca3"
-            ]
-        ]
-    },
-    {
-        "id": "b382f1cea0cf118c",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaO300_DL_Optic/Value",
-        "name": "Laser",
-        "inputs": 0,
-        "x": 90,
-        "y": 140,
-        "wires": [
-            [
-                "de362d879a0113ba"
-            ]
-        ]
-    },
-    {
-        "id": "e5a767bdcca1e6d9",
-        "type": "subflow:2acbf28b7034c4f3",
-        "z": "9f43651d27666c07",
-        "g": "8c1edaf6ffe838c7",
-        "name": "",
-        "env": [
-            {
-                "name": "setGroup",
-                "value": "84bdc0c5cf8a2ae7",
-                "type": "conf-type"
-            },
-            {
-                "name": "setColor",
-                "value": "green",
-                "type": "str"
-            },
-            {
-                "name": "setFontSize",
-                "value": "16",
-                "type": "str"
-            },
-            {
-                "name": "setMultiFactor",
-                "value": "0.01",
-                "type": "str"
-            },
-            {
-                "name": "setLabel",
-                "value": "Raw value",
-                "type": "str"
-            },
-            {
-                "key": "DB2_SF_ORDER",
-                "value": 2,
-                "type": "str"
-            }
-        ],
-        "x": 410,
-        "y": 280,
-        "wires": [
-            [
-                "94b66729fad6e339"
-            ]
-        ]
-    },
-    {
-        "id": "5ac6b0ddfdd92f95",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "g": "8c1edaf6ffe838c7",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/GVL_Abox/uaAboxInterface/uaU300_D50_Sound/Value",
-        "name": "Sound",
-        "inputs": 0,
-        "x": 130,
-        "y": 240,
-        "wires": [
-            [
-                "e5a767bdcca1e6d9"
-            ]
-        ]
-    },
-    {
-        "id": "c69ffd3c161ab844",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "g": "8c1edaf6ffe838c7",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "563.25",
-        "payloadType": "num",
-        "x": 130,
-        "y": 340,
-        "wires": [
-            [
-                "e5a767bdcca1e6d9"
-            ]
-        ]
-    },
-    {
-        "id": "50d4dc750647c24c",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "g": "8c1edaf6ffe838c7",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "456814",
-        "payloadType": "num",
-        "x": 150,
-        "y": 420,
-        "wires": [
-            [
-                "e5a767bdcca1e6d9"
-            ]
-        ]
-    },
-    {
-        "id": "94b66729fad6e339",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "g": "8c1edaf6ffe838c7",
-        "name": "debug my subflow",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 670,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "8ccddb9a.a55f38",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "name": "temperature",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "temperature",
-        "payload": "10",
-        "payloadType": "num",
-        "x": 210,
-        "y": 560,
-        "wires": [
-            [
-                "47b769c5.cb0e28"
-            ]
-        ]
-    },
-    {
-        "id": "47b769c5.cb0e28",
-        "type": "join",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 410,
-        "y": 600,
-        "wires": [
-            [
-                "f9afb265.b11b7"
-            ]
-        ]
-    },
-    {
-        "id": "f9afb265.b11b7",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 570,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "2d269127.4f04ce",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "name": "humidity",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "humidity",
-        "payload": "",
-        "payloadType": "num",
-        "x": 200,
-        "y": 600,
-        "wires": [
-            [
-                "47b769c5.cb0e28"
-            ]
-        ]
-    },
-    {
-        "id": "d6fbe805.0e4628",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "name": "pressure",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "pressure",
-        "payload": "999",
-        "payloadType": "num",
-        "x": 200,
-        "y": 640,
-        "wires": [
-            [
-                "47b769c5.cb0e28"
-            ]
-        ]
-    },
-    {
-        "id": "e583a49c334b142d",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_X",
-        "name": "",
-        "inputs": 0,
-        "x": 230,
-        "y": 720,
-        "wires": [
-            [
-                "5bdf6fa4f7818be8"
-            ]
-        ]
-    },
-    {
-        "id": "e5107ff91f86c5cc",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "Join Positions",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 840,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "f8fbbcd259812b17",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Y",
-        "name": "",
-        "inputs": 0,
-        "x": 230,
-        "y": 780,
-        "wires": [
-            [
-                "8dd5ef0d20a52abd"
-            ]
-        ]
-    },
-    {
-        "id": "078e185810115ba5",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "9f43651d27666c07",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Z",
-        "name": "",
-        "inputs": 0,
-        "x": 230,
-        "y": 860,
-        "wires": [
-            [
-                "eca208d63147ad1e"
-            ]
-        ]
-    },
-    {
-        "id": "5bdf6fa4f7818be8",
-        "type": "function",
-        "z": "9f43651d27666c07",
-        "name": "Axis_X",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_X\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 740,
-        "wires": [
-            [
-                "a8e6fb0697d704c1",
-                "f39e04a220565b44"
-            ]
-        ]
-    },
-    {
-        "id": "8dd5ef0d20a52abd",
-        "type": "function",
-        "z": "9f43651d27666c07",
-        "name": "Axis_Y",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Y\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 520,
-        "y": 780,
-        "wires": [
-            [
-                "a8e6fb0697d704c1",
-                "f39e04a220565b44"
-            ]
-        ]
-    },
-    {
-        "id": "eca208d63147ad1e",
-        "type": "function",
-        "z": "9f43651d27666c07",
-        "name": "Axis_Z",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Z\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 820,
-        "wires": [
-            [
-                "a8e6fb0697d704c1",
-                "f39e04a220565b44"
-            ]
-        ]
-    },
-    {
-        "id": "a8e6fb0697d704c1",
-        "type": "join",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 690,
-        "y": 740,
-        "wires": [
-            [
-                "e5107ff91f86c5cc"
-            ]
-        ]
-    },
-    {
-        "id": "f39e04a220565b44",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "Positions",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 720,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "9ccdf268.c96ff",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 980,
-        "wires": [
-            [
-                "38950a5.28d15f6",
-                "2c532f67.0330e"
-            ]
-        ]
-    },
-    {
-        "id": "38950a5.28d15f6",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 690,
-        "y": 980,
-        "wires": []
-    },
-    {
-        "id": "2c532f67.0330e",
-        "type": "trigger",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "op1": "reset",
-        "op2": "true",
-        "op1type": "str",
-        "op2type": "bool",
-        "duration": "2",
-        "extend": true,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 300,
-        "y": 1020,
-        "wires": [
-            [
-                "e4e42b96.97a338",
-                "c1831d85a58311c7"
-            ]
-        ]
-    },
-    {
-        "id": "e4e42b96.97a338",
-        "type": "trigger",
-        "z": "9f43651d27666c07",
-        "name": "",
-        "op1": "0",
-        "op2": "0",
-        "op1type": "num",
-        "op2type": "str",
-        "duration": "-2",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "reset",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 500,
-        "y": 1020,
-        "wires": [
-            [
-                "38950a5.28d15f6"
-            ]
-        ]
-    },
-    {
-        "id": "c1831d85a58311c7",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "name": "First Trigger",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 510,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "11c0ab4f336f73cf",
-        "type": "ctrlx-datalayer-request",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "device": "e45e312c80fc001e",
-        "method": "READ",
-        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
-        "payloadFormat": "value_type",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 430,
-        "y": 1320,
-        "wires": [
-            [
-                "814850eafc62812a",
-                "6602aed96f84f0a6"
-            ]
-        ]
-    },
-    {
-        "id": "e6309feeae288cd6",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 1320,
-        "wires": [
-            [
-                "11c0ab4f336f73cf"
-            ]
-        ]
-    },
-    {
-        "id": "814850eafc62812a",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "debug 30",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 1320,
-        "wires": []
-    },
-    {
-        "id": "6602aed96f84f0a6",
-        "type": "change",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "CmdParameters",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 230,
-        "y": 1400,
-        "wires": [
-            [
-                "5d2bca160a282513"
-            ]
-        ]
-    },
-    {
-        "id": "5bde80b7d115159c",
-        "type": "comment",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "Read write",
-        "info": "",
-        "x": 140,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "1f7d1352bf7ce123",
-        "type": "file",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 600,
-        "y": 1480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1e769916d4329cce",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "debug 31",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "e9c4f2ef22d66833",
-        "type": "inject",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 1560,
-        "wires": [
-            [
-                "5cae0d5776ece977"
-            ]
-        ]
-    },
-    {
-        "id": "5cae0d5776ece977",
-        "type": "file in",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 540,
-        "y": 1560,
-        "wires": [
-            [
-                "27d946db6aceaafd"
-            ]
-        ]
-    },
-    {
-        "id": "b0b78c2c6619a742",
-        "type": "ctrlx-datalayer-request",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "device": "e45e312c80fc001e",
-        "method": "WRITE",
-        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
-        "payloadFormat": "value_type",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 620,
-        "y": 1760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6252554ba57a5355",
-        "type": "change",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "CmdParameters",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 210,
-        "y": 1720,
-        "wires": [
-            [
-                "b0b78c2c6619a742",
-                "c9d4a23c377e8e0d"
-            ]
-        ]
-    },
-    {
-        "id": "c9d4a23c377e8e0d",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "debug 33",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 480,
-        "y": 1680,
-        "wires": []
-    },
-    {
-        "id": "5d2bca160a282513",
-        "type": "json",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 450,
-        "y": 1400,
-        "wires": [
-            [
-                "1e769916d4329cce",
-                "1f7d1352bf7ce123"
-            ]
-        ]
-    },
-    {
-        "id": "27d946db6aceaafd",
-        "type": "json",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 310,
-        "y": 1620,
-        "wires": [
-            [
-                "6252554ba57a5355",
-                "96daf303ac61ec02"
-            ]
-        ]
-    },
-    {
-        "id": "96daf303ac61ec02",
-        "type": "debug",
-        "z": "9f43651d27666c07",
-        "g": "fa6037b1b4cd4036",
-        "name": "debug 34",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 500,
-        "y": 1620,
-        "wires": []
-    },
-    {
-        "id": "16c8d3a6b931c9b9",
-        "type": "ui-radio-group",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "group": "86ca703e3e55c636",
-        "name": "",
-        "label": "Select Option:",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "columns": 1,
-        "passthru": true,
-        "options": [
-            {
-                "label": "Motion Started",
-                "value": true,
-                "type": "bool"
-            },
-            {
-                "label": "Motion Done",
-                "value": false,
-                "type": "bool"
-            }
-        ],
-        "payload": "",
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 440,
-        "y": 400,
-        "wires": [
-            [
-                "ab4e8efca07b3710",
-                "5012b69f0c9feef9"
-            ]
-        ]
-    },
-    {
-        "id": "67ce856367310f5e",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "Start Motion",
-        "links": [
-            "6f8c01b65c1d3f51"
-        ],
-        "x": 225,
-        "y": 360,
-        "wires": [
-            [
-                "16c8d3a6b931c9b9"
-            ]
-        ]
-    },
-    {
-        "id": "881cc231027dcc49",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "Sart Motion",
-        "links": [
-            "2ac02d87fc808341"
-        ],
-        "x": 225,
-        "y": 400,
-        "wires": [
-            [
-                "16c8d3a6b931c9b9"
-            ]
-        ]
-    },
-    {
-        "id": "873f10be8e4d480e",
-        "type": "ui-text",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "group": "84bdc0c5cf8a2ae7",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Motion done msg: ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 590,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "dabfe2752ee4d254",
-        "type": "ui-button",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "group": "86ca703e3e55c636",
-        "name": "",
-        "label": "Force motion done",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "emulateClick": false,
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "iconPosition": "left",
-        "payload": "false",
-        "payloadType": "bool",
-        "topic": "topic",
-        "topicType": "msg",
-        "buttonColor": "",
-        "textColor": "",
-        "iconColor": "",
-        "enableClick": true,
-        "enablePointerdown": false,
-        "pointerdownPayload": "",
-        "pointerdownPayloadType": "str",
-        "enablePointerup": false,
-        "pointerupPayload": "",
-        "pointerupPayloadType": "str",
-        "x": 150,
-        "y": 320,
-        "wires": [
-            [
-                "16c8d3a6b931c9b9",
-                "33ea3f6467581c42"
-            ]
-        ]
-    },
-    {
-        "id": "e7660260e8c5617e",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionDone",
-        "name": "",
-        "inputs": 0,
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "873f10be8e4d480e",
-                "59564dc585013b31"
-            ]
-        ]
-    },
-    {
-        "id": "bd1d65a0b2324e9f",
-        "type": "ui-text",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "group": "84bdc0c5cf8a2ae7",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Motion done Status: ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 600,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "33206772114991c3",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionStatusString",
-        "name": "",
-        "inputs": 0,
-        "x": 240,
-        "y": 140,
-        "wires": [
-            [
-                "bd1d65a0b2324e9f"
-            ]
-        ]
-    },
-    {
-        "id": "962b44c80e86188f",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "name": "Motion Status from PLC",
-        "info": "",
-        "x": 160,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "59564dc585013b31",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "not done",
-        "func": "msg.payload = !msg.payload;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 180,
-        "y": 440,
-        "wires": [
-            [
-                "16c8d3a6b931c9b9"
-            ]
-        ]
-    },
-    {
-        "id": "c61792b18a32a294",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "Motion Started or done",
-        "info": "",
-        "x": 600,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "06854f7db0db5400",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "Start Motion",
-        "links": [
-            "6f8c01b65c1d3f51"
-        ],
-        "x": 185,
-        "y": 620,
-        "wires": [
-            [
-                "10d319e27f75b929"
-            ]
-        ]
-    },
-    {
-        "id": "85fed93b23877678",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "Sart Motion",
-        "links": [
-            "2ac02d87fc808341"
-        ],
-        "x": 185,
-        "y": 660,
-        "wires": [
-            [
-                "10d319e27f75b929"
-            ]
-        ]
-    },
-    {
-        "id": "5d4ec4cbca213de9",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "Motion Started or done",
-        "info": "",
-        "x": 560,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "33ea3f6467581c42",
-        "type": "link out",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "Reset motion done",
-        "mode": "link",
-        "links": [
-            "312a993a09d48e2e"
-        ],
-        "x": 345,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "312a993a09d48e2e",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "link in 6",
-        "links": [
-            "33ea3f6467581c42"
-        ],
-        "x": 185,
-        "y": 580,
-        "wires": [
-            [
-                "10d319e27f75b929"
-            ]
-        ]
-    },
-    {
-        "id": "10d319e27f75b929",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "debug 28",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 360,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "0479f385e4b2fb78",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "Build message to write",
-        "func": "// get a timestamp\nconst event = new Date();\n// convert to local time\nmsg.payload = {time : event.toLocaleTimeString(\"en-US\", { timeZone: \"Europe/Berlin\" }),\n               action : \"Reset Button\"};\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 400,
-        "y": 740,
-        "wires": [
-            [
-                "3d9ced6faa4383f0",
-                "b5c53ebe31abaae2"
-            ]
-        ]
-    },
-    {
-        "id": "37c83f24a82e16b9",
-        "type": "inject",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "iso",
-        "payloadType": "date",
-        "x": 140,
-        "y": 740,
-        "wires": [
-            [
-                "0479f385e4b2fb78"
-            ]
-        ]
-    },
-    {
-        "id": "3d9ced6faa4383f0",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "debug 29",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 600,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "4e55b65911f30db1",
-        "type": "ui-button",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "group": "94299253fcb53e23",
-        "name": "",
-        "label": "button",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "emulateClick": false,
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "iconPosition": "left",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "buttonColor": "",
-        "textColor": "",
-        "iconColor": "",
-        "enableClick": true,
-        "enablePointerdown": false,
-        "pointerdownPayload": "",
-        "pointerdownPayloadType": "str",
-        "enablePointerup": false,
-        "pointerupPayload": "",
-        "pointerupPayloadType": "str",
-        "x": 110,
-        "y": 800,
-        "wires": [
-            [
-                "0479f385e4b2fb78"
-            ]
-        ]
-    },
-    {
-        "id": "b5c53ebe31abaae2",
-        "type": "json",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 370,
-        "y": 820,
-        "wires": [
-            [
-                "94107265ee29661d"
-            ]
-        ]
-    },
-    {
-        "id": "94107265ee29661d",
-        "type": "file",
-        "z": "fda828b9cf218447",
-        "g": "e5a5deed42ad487a",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\LogEvent.json",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 560,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6434ed1e6d802c42",
-        "type": "ctrlx-datalayer-request",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "device": "e45e312c80fc001e",
-        "method": "READ",
-        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
-        "payloadFormat": "value_type",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 410,
-        "y": 1700,
-        "wires": [
-            [
-                "41429915f93bb0fd",
-                "4d2b55b13808cc07"
-            ]
-        ]
-    },
-    {
-        "id": "352a2b9a5bc85a4d",
-        "type": "inject",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
-        "y": 1700,
-        "wires": [
-            [
-                "6434ed1e6d802c42"
-            ]
-        ]
-    },
-    {
-        "id": "41429915f93bb0fd",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "debug 35",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 760,
-        "y": 1700,
-        "wires": []
-    },
-    {
-        "id": "faa73f961089754a",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "Read write json",
-        "info": "",
-        "x": 140,
-        "y": 1860,
-        "wires": []
-    },
-    {
-        "id": "8cc15fe26f0b6ab0",
-        "type": "file",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 580,
-        "y": 1860,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c0b0795f9036fd62",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "debug 36",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 760,
-        "y": 1760,
-        "wires": []
-    },
-    {
-        "id": "6ce990b0f9585626",
-        "type": "inject",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
-        "y": 1940,
-        "wires": [
-            [
-                "9c778cf683b7e7e2"
-            ]
-        ]
-    },
-    {
-        "id": "9c778cf683b7e7e2",
-        "type": "file in",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\CmdParameters.json",
-        "filenameType": "str",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 520,
-        "y": 1940,
-        "wires": [
-            [
-                "0209123bce113630"
-            ]
-        ]
-    },
-    {
-        "id": "78dca3aad0c52ac0",
-        "type": "ctrlx-datalayer-request",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "device": "e45e312c80fc001e",
-        "method": "WRITE",
-        "path": "plc/app/Application/sym/PackTag/Command/Parameter_Lreal",
-        "payloadFormat": "value_type",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 620,
-        "y": 2060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4d2b55b13808cc07",
-        "type": "json",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 430,
-        "y": 1780,
-        "wires": [
-            [
-                "c0b0795f9036fd62",
-                "8cc15fe26f0b6ab0"
-            ]
-        ]
-    },
-    {
-        "id": "0209123bce113630",
-        "type": "json",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 290,
-        "y": 2000,
-        "wires": [
-            [
-                "2960eec8feb91eed",
-                "78dca3aad0c52ac0"
-            ]
-        ]
-    },
-    {
-        "id": "2960eec8feb91eed",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "02ba4ac2bf5bc2be",
-        "name": "debug 38",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 480,
-        "y": 2000,
-        "wires": []
-    },
-    {
-        "id": "d72221f60c2de6cb",
-        "type": "trigger",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "",
-        "op1": "",
-        "op2": "0",
-        "op1type": "date",
-        "op2type": "str",
-        "duration": "-200",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "ms",
-        "reset": "reset",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 400,
-        "y": 1080,
-        "wires": [
-            [
-                "d37fc4d6a47ba0ef",
-                "7f8c222834a15617"
-            ]
-        ]
-    },
-    {
-        "id": "ecaa35f7c7873f67",
-        "type": "inject",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 150,
-        "y": 1080,
-        "wires": [
-            [
-                "d72221f60c2de6cb"
-            ]
-        ]
-    },
-    {
-        "id": "d37fc4d6a47ba0ef",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "debug 27",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 640,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "b7206323cb5b7095",
-        "type": "inject",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "reset",
-        "payloadType": "str",
-        "x": 170,
-        "y": 1120,
-        "wires": [
-            [
-                "d72221f60c2de6cb"
-            ]
-        ]
-    },
-    {
-        "id": "713f9783df8256a1",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "Build a trigger with xx ms repetition",
-        "info": "",
-        "x": 220,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "74d8d209d1f15750",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Axis_X",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_X\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1280,
-        "wires": [
-            [
-                "58188e5b1a18844b"
-            ]
-        ]
-    },
-    {
-        "id": "e00d56c66f599124",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Axis_Y",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Y\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 1320,
-        "wires": [
-            [
-                "58188e5b1a18844b"
-            ]
-        ]
-    },
-    {
-        "id": "82d2a1834149859e",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Axis_Z",
-        "func": "var newMsg = {};\n\nnewMsg.payload = Math.round(msg.payload * 10) * 0.1;\nnewMsg.topic = \"Axis_Z\"\n\nreturn newMsg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1360,
-        "wires": [
-            [
-                "58188e5b1a18844b"
-            ]
-        ]
-    },
-    {
-        "id": "0342af36c0b6af22",
-        "type": "ctrlx-datalayer-request",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "device": "e45e312c80fc001e",
-        "method": "READ",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_X",
-        "payloadFormat": "value",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 310,
-        "y": 1280,
-        "wires": [
-            [
-                "74d8d209d1f15750"
-            ]
-        ]
-    },
-    {
-        "id": "1bdef868ea24fb80",
-        "type": "ctrlx-datalayer-request",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "device": "e45e312c80fc001e",
-        "method": "READ",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Y",
-        "payloadFormat": "value",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 310,
-        "y": 1340,
-        "wires": [
-            [
-                "e00d56c66f599124"
-            ]
-        ]
-    },
-    {
-        "id": "f23d2cd34e3e856d",
-        "type": "ctrlx-datalayer-request",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "device": "e45e312c80fc001e",
-        "method": "READ",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/groupPosition_Z",
-        "payloadFormat": "value",
-        "name": "",
-        "pendingWarnLevel": 50,
-        "pendingErrorLevel": 100,
-        "x": 310,
-        "y": 1400,
-        "wires": [
-            [
-                "82d2a1834149859e"
-            ]
-        ]
-    },
-    {
-        "id": "7f8c222834a15617",
-        "type": "link out",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "Trigger position",
-        "mode": "link",
-        "links": [
-            "b07fe33e8aa9edfa"
-        ],
-        "x": 645,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "b07fe33e8aa9edfa",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Trigger position",
-        "links": [
-            "7f8c222834a15617"
-        ],
-        "x": 75,
-        "y": 1320,
-        "wires": [
-            [
-                "0342af36c0b6af22",
-                "1bdef868ea24fb80",
-                "f23d2cd34e3e856d"
-            ]
-        ]
-    },
-    {
-        "id": "b4cb8010134a7b3c",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Positions",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 360,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "58188e5b1a18844b",
-        "type": "join",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "",
-        "mode": "custom",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 830,
-        "y": 1320,
-        "wires": [
-            [
-                "91092292934f4656"
-            ]
-        ]
-    },
-    {
-        "id": "91092292934f4656",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Build message to write",
-        "func": "// get a timestamp\nconst event = new Date();\n// convert to local time\nmsg.payload = {time : event.toLocaleTimeString(\"en-US\", { timeZone: \"Europe/Berlin\" }),\n               Axis_x : msg.payload.Axis_X,\n               Axis_y : msg.payload.Axis_Y,\n               Axis_z : msg.payload.Axis_Z};\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 560,
-        "y": 1460,
-        "wires": [
-            [
-                "340a8a7d8e2068b1"
-            ]
-        ]
-    },
-    {
-        "id": "340a8a7d8e2068b1",
-        "type": "csv",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "",
-        "spec": "rfc",
-        "sep": ",",
-        "hdrin": "",
-        "hdrout": "none",
-        "multi": "one",
-        "ret": "\\r\\n",
-        "temp": "",
-        "skip": "0",
-        "strings": true,
-        "include_empty_strings": "",
-        "include_null_values": "",
-        "x": 210,
-        "y": 1520,
-        "wires": [
-            [
-                "325cc00d1d0e771e",
-                "b4cb8010134a7b3c"
-            ]
-        ]
-    },
-    {
-        "id": "325cc00d1d0e771e",
-        "type": "file",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "",
-        "filename": "C:\\Users\\cedric.lenoir\\Documents\\Adp\\Lab_04_2026\\RobotPosition.csv",
-        "filenameType": "str",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "false",
-        "encoding": "none",
-        "x": 550,
-        "y": 1520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8ba39bf9c2c4e7de",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "21f6b3d81952501e",
-        "name": "Write Robot positions",
-        "info": "",
-        "x": 300,
-        "y": 1460,
-        "wires": []
-    },
-    {
-        "id": "ab4e8efca07b3710",
-        "type": "link out",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "Motion done not done",
-        "mode": "link",
-        "links": [
-            "c9968cee6065d543"
-        ],
-        "x": 615,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "c9968cee6065d543",
-        "type": "link in",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "Motion Done not done",
-        "links": [
-            "ab4e8efca07b3710"
-        ],
-        "x": 185,
-        "y": 1000,
-        "wires": [
-            [
-                "483095fab07397b2",
-                "98db3381bf380aae"
-            ]
-        ]
-    },
-    {
-        "id": "483095fab07397b2",
-        "type": "function",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "Set Reset",
-        "func": "if (msg.payload) {\n    msg.payload = true;\n}\nelse{\n    msg.payload = \"reset\"; \n}\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 1040,
-        "wires": [
-            [
-                "d72221f60c2de6cb",
-                "98db3381bf380aae"
-            ]
-        ]
-    },
-    {
-        "id": "98db3381bf380aae",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "90c57959f492d204",
-        "name": "debug 39",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 520,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "5012b69f0c9feef9",
-        "type": "debug",
-        "z": "fda828b9cf218447",
-        "g": "d36a14ca81220d57",
-        "name": "debug 40",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 540,
-        "y": 340,
-        "wires": []
     }
 ]

@@ -1204,6 +1204,31 @@
         "h": 262
     },
     {
+        "id": "def4eaf6b5435702",
+        "type": "group",
+        "z": "fda828b9cf218447",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "873f10be8e4d480e",
+            "e7660260e8c5617e",
+            "bd1d65a0b2324e9f",
+            "33206772114991c3",
+            "962b44c80e86188f"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 692,
+        "h": 202
+    },
+    {
         "id": "d36a14ca81220d57",
         "type": "group",
         "z": "fda828b9cf218447",
@@ -1463,31 +1488,6 @@
         "y": 539,
         "w": 952,
         "h": 82
-    },
-    {
-        "id": "def4eaf6b5435702",
-        "type": "group",
-        "z": "fda828b9cf218447",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "873f10be8e4d480e",
-            "e7660260e8c5617e",
-            "bd1d65a0b2324e9f",
-            "33206772114991c3",
-            "962b44c80e86188f"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 692,
-        "h": 202
     },
     {
         "id": "8966a7b403a8fb88",
@@ -2175,6 +2175,31 @@
         ]
     },
     {
+        "id": "873f10be8e4d480e",
+        "type": "ui-text",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "group": "84bdc0c5cf8a2ae7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motion done msg: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
         "id": "dabfe2752ee4d254",
         "type": "ui-button",
         "z": "fda828b9cf218447",
@@ -2214,6 +2239,77 @@
                 "33ea3f6467581c42"
             ]
         ]
+    },
+    {
+        "id": "e7660260e8c5617e",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionDone",
+        "name": "",
+        "inputs": 0,
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "873f10be8e4d480e",
+                "59564dc585013b31"
+            ]
+        ]
+    },
+    {
+        "id": "bd1d65a0b2324e9f",
+        "type": "ui-text",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "group": "84bdc0c5cf8a2ae7",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motion done Status: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 600,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "33206772114991c3",
+        "type": "ctrlx-datalayer-subscribe",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "subscription": "c5b0190b901ecb86",
+        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionStatusString",
+        "name": "",
+        "inputs": 0,
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "bd1d65a0b2324e9f"
+            ]
+        ]
+    },
+    {
+        "id": "962b44c80e86188f",
+        "type": "comment",
+        "z": "fda828b9cf218447",
+        "g": "def4eaf6b5435702",
+        "name": "Motion Status from PLC",
+        "info": "",
+        "x": 160,
+        "y": 200,
+        "wires": []
     },
     {
         "id": "59564dc585013b31",
@@ -3203,102 +3299,6 @@
         "statusType": "auto",
         "x": 540,
         "y": 340,
-        "wires": []
-    },
-    {
-        "id": "873f10be8e4d480e",
-        "type": "ui-text",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "group": "84bdc0c5cf8a2ae7",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Motion done msg: ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 590,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "e7660260e8c5617e",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionDone",
-        "name": "",
-        "inputs": 0,
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "873f10be8e4d480e",
-                "59564dc585013b31"
-            ]
-        ]
-    },
-    {
-        "id": "bd1d65a0b2324e9f",
-        "type": "ui-text",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "group": "84bdc0c5cf8a2ae7",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Motion done Status: ",
-        "format": "{{msg.payload}}",
-        "layout": "row-left",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#717171",
-        "wrapText": false,
-        "className": "",
-        "value": "payload",
-        "valueType": "msg",
-        "x": 600,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "33206772114991c3",
-        "type": "ctrlx-datalayer-subscribe",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "subscription": "c5b0190b901ecb86",
-        "path": "plc/app/Application/sym/PRG_Unit/emRobot/_MotionStatusString",
-        "name": "",
-        "inputs": 0,
-        "x": 240,
-        "y": 140,
-        "wires": [
-            [
-                "bd1d65a0b2324e9f"
-            ]
-        ]
-    },
-    {
-        "id": "962b44c80e86188f",
-        "type": "comment",
-        "z": "fda828b9cf218447",
-        "g": "def4eaf6b5435702",
-        "name": "Motion Status from PLC",
-        "info": "",
-        "x": 160,
-        "y": 200,
         "wires": []
     },
     {

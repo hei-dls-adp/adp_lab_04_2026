@@ -114,6 +114,11 @@ To convert to from **XML** format
 
 ---
 
+## Before to start
+1. Create this folder: ``\Documents\Adp\Lab_04_2026``
+
+2.  Load this node: ``\adp_lab_04_2026\node_red_base\flows.json``
+
 ## First task
 
 Subscribe ot motion done, ``bool8`` and status ``string`` from PLC and display them in Motion status of UI.
