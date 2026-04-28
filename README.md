@@ -368,7 +368,19 @@ For JavaScript math functions, have a look on this page: [Mozilla Math](https://
 
 ---
 
-## Bug
+## Bug XML
+
+### Notes à propos de XML
+The names for the XML tags **must not** contain any empty spaces..
+
+**Example**
+
+```json
+// Not possible
+{"Sensor one": 45.3,
+ "Sensor two": 52.3}
+```
+
 I have a problem with reading XML parameters.
 Problem to solve...
 
@@ -401,11 +413,396 @@ Use the example of process below to write read the xml file.
 C:\Users\yourfirstname.yourname\Documents\Adp\Lab_04_2026\CmdParameters.xml
 ```
 
-<b style='color:red;'>Now you are able to store restore a set of parametes for a machine with standard xml file.</b>
+## Question to AI
 
-**Please, check your system be editing the xml file !!!**
+With Node-RED, when I read an XML format like that:
 
-<b style='color:red;'>Maybe with the help of that ?</b>
-C:\Users\cedric.lenoir\Documents\Git_Hub\adp_lab_04_2026\node_red_base\To Insert in your flows
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes">
+<root>
+  <SensorOne>45.3</SensorOne>
+  <SensorTwo>52.3</SensorTwo>
+</root>
+```
+
+with the node-red parser xml, I receive something like that:
+
+```js
+{"root":{
+         "SensorOne":["45.3"],
+         "SensorTwo":["52.3"]}
+        }
+```
+
+When I wait something like that (the problem is the array, not the root)
+
+```js
+{
+    "SensorOne": 45.3,
+    "SensorTwo": 52.3
+}
+```
+
+Why the parser return me an array when I wait a single value ?
+
+### Answer from AI
+What you’re seeing is actually **intentional behavior**, not a bug.
+
+The XML parser used by Node-RED (internally based on libraries like xml2js) always returns **arrays for element values** by default.
+
+### Why arrays?
+
+Because in XML, this is perfectly valid:
+
+```xml
+<root>
+  <SensorOne>45.3</SensorOne>
+  <SensorOne>46.1</SensorOne>
+</root>
+```
+
+In that case, `SensorOne` appears **multiple times**, so it must be represented as a list:
+
+```json
+"SensorOne": ["45.3", "46.1"]
+```
+
+To keep a **consistent structure**, the parser **always uses arrays**, even when there is only one element:
+
+```json
+"SensorOne": ["45.3"]
+```
+
+This avoids ambiguity and prevents your flow from breaking if one day multiple values appear.
+
+---
+
+### Why you expected a single value
+
+You’re thinking in terms of JSON objects, where a key usually maps to a single value:
+
+```json
+"SensorOne": 45.3
+```
+
+But XML doesn’t enforce uniqueness of tags → so the parser plays it safe.
+
+---
+
+### How to get what you want
+
+You have a few options:
+
+#### 1. Configure the XML node
+
+In the XML node settings, you can disable the array behavior:
+
+* Set: **“Explicit Array” = false**
+
+Then you’ll get:
+
+```json
+{
+  "root": {
+    "SensorOne": "45.3",
+    "SensorTwo": "52.3"
+  }
+}
+```
+
+(Still strings, though.)
+
+---
+
+#### 2. Convert + clean with a Function node
+
+If you also want numbers and remove `root`:
+
+```javascript
+let data = msg.payload.root;
+
+msg.payload = {
+    SensorOne: Number(data.SensorOne[0]),
+    SensorTwo: Number(data.SensorTwo[0])
+};
+
+return msg;
+```
+
+---
+
+#### 3. More generic solution (recommended for scalability)
+
+If you don’t want to hardcode field names:
+
+```javascript
+let result = {};
+let data = msg.payload.root;
+
+for (let key in data) {
+    result[key] = Number(data[key][0]);
+}
+
+msg.payload = result;
+return msg;
+```
+
+---
+
+### Takeaway
+
+* XML allows **multiple identical tags**
+* The parser ensures **structure consistency**
+* Arrays are used even for single values by design
+
+---
+
+If you want, I can show you how to build a reusable Node-RED subflow that automatically flattens any XML into clean JSON.
+
+Show me how to build a reusable Node-RED subflow that automatically flattens any XML into clean JSON
+
+Here’s a clean way to build a **reusable subflow in Node-RED** that converts XML → flat, typed JSON (no arrays, no root wrapper, numbers parsed).
+
+---
+
+# 🎯 Goal
+
+Input:
+
+```xml
+<root>
+  <SensorOne>45.3</SensorOne>
+  <SensorTwo>52.3</SensorTwo>
+</root>
+```
+
+Output:
+
+```json
+{
+  "SensorOne": 45.3,
+  "SensorTwo": 52.3
+}
+```
+
+---
+
+# 🧱 Step 1 — Create the Subflow
+
+1. In Node-RED menu → **Subflows → Create subflow**
+2. Name it: `XML → Flat JSON`
+3. Add:
+
+   * **1 input**
+   * **1 output**
+
+---
+
+# ⚙️ Step 2 — Add nodes inside the subflow
+
+### 1. XML node
+
+* Drag an **XML node**
+* Configure:
+
+  * ✅ **Explicit Array: false** ← important
+  * (this removes `["value"]`)
+
+---
+
+### 2. Function node (flatten + type conversion)
+
+Add a **Function node** after the XML node:
+
+```javascript
+// Recursively flatten XML JSON and convert values
+
+function flatten(obj) {
+    let result = {};
+
+    for (let key in obj) {
+        let value = obj[key];
+
+        // If it's an object → recurse
+        if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+            Object.assign(result, flatten(value));
+        }
+        // If it's an array → take first element
+        else if (Array.isArray(value)) {
+            result[key] = convert(value[0]);
+        }
+        else {
+            result[key] = convert(value);
+        }
+    }
+
+    return result;
+}
+
+// Convert string → number if possible
+function convert(val) {
+    if (typeof val === "string") {
+        let num = Number(val);
+        return isNaN(num) ? val : num;
+    }
+    return val;
+}
+
+// Remove root level if single key
+let payload = msg.payload;
+
+if (typeof payload === "object" && Object.keys(payload).length === 1) {
+    payload = payload[Object.keys(payload)[0]];
+}
+
+msg.payload = flatten(payload);
+
+return msg;
+```
+
+---
+
+# 🔌 Step 3 — Wire it
+
+Inside the subflow:
+
+```
+[Input] → [XML Node] → [Function] → [Output]
+```
+
+---
+
+# 🧪 Step 4 — Use the subflow
+
+Now anywhere in your flow:
+
+1. Inject XML
+2. Pass to your subflow
+
+Example output:
+
+```json
+{
+  "SensorOne": 45.3,
+  "SensorTwo": 52.3
+}
+```
+
+---
+
+# 💡 What this subflow handles
+
+✅ Removes root wrapper
+✅ Removes arrays
+✅ Converts numbers automatically
+✅ Works with nested XML
+✅ Reusable everywhere
+
+---
+
+# ⚠️ Important limitations (don’t skip this)
+
+This “flattening” assumes:
+
+* You **don’t care about repeated XML tags**
+* You only want **one value per field**
+
+If XML contains:
+
+```xml
+<Alarm>1</Alarm>
+<Alarm>2</Alarm>
+```
+
+👉 You will only get:
+
+```json
+"Alarm": 1
+```
+
+If that’s not acceptable, you need a different strategy (keep arrays).
+
+---
+
+# 🚀 Optional improvements
+
+You can make the subflow more flexible:
+
+### 1. Add environment variables
+
+* `keepArrays` (true/false)
+* `parseNumbers` (true/false)
+
+### 2. Add prefix for nested keys
+
+Example:
+
+```json
+Machine_Temp: 45.3
+```
+
+---
+
+# 👉 If you want next
+
+I can extend this to:
+
+* preserve hierarchy with dot notation (`root.sensor.value`)
+* handle attributes (`<tag attr="x">`)
+* or make it compatible with OPC UA data models (since you seem to work with that)
+
+Just tell me 👍
+
+### More notes
+If you read the documentation of the xml parser, you can find a link to this page See the [xml2js docs](https://github.com/Leonidas-from-XIV/node-xml2js/blob/master/README.md#options).
+
+in this documentation, there is something like:
+
+**explicitArray** (default: true): Always put child nodes in an array if true; otherwise an array is created only if there is more than one.
+
+**Example with change node**
+
+<div align="center">
+<figure>
+  <img src="./img/UseChangeNodeForExplicitArrayFalse.png"
+     alt="Image lost: UseChangeNodeForExplicitArrayFalse"
+     width="400"><br>
+  <figcaption>Use change node for explicitArray = false</figcaption>
+</figure>
+</div>
+
+:bulb: une fois résolu le problème du array, ce qui est simplement résolu avec l'option mentionnée ci-dessus, il reste encore un problème. Dans ma structure de données, j'ai des strings et des nombres. Hors XML ne fait pas de différence entre les deux. Dans mon XML, j'ai par exemple:
+
+```xml
+<value>
+  <ID>2003</ID>
+  <Name>Axes Deceleration</Name>
+  <Unit>m/s2</Unit>
+  <Value>0.5</Value>
+</value>
+<value>
+  <ID>2004</ID>
+  <Name>Axes Jerk</Name>
+  <Unit>m/s3</Unit>
+  <Value>5</Value>
+</value>
+```
+
+Le problème: quand je relis ce XML, tout est interprété en String, ce qui est correct mais me pose un problème quand je dois retransmettre cette information au DataLayer.
+
+Alors que le format JSON, lui, par défaut fait une différence entre les nombres et les strings.
+
+```json
+    {"ID":2001,
+     "Name":"Axes Velocity",
+     "Unit":"m/s",
+     "Value":0.1
+    },
+    {"ID":2002,
+     "Name":"Axes Acceleration",
+     "Unit":"m/s2",
+     "Value":0.5
+    },
+```
 
 <!-- End of document -->
